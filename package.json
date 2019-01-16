@@ -19,7 +19,7 @@
   },
   "rnpm": {
     "assets": [
-	"./Assets/fonts/Asap"
+	"./Assets/fonts/"
     ]
   },
   "jest": {
