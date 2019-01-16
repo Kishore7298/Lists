@@ -1,6 +1,6 @@
 //Import the libraries
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 import { asap } from 'rsvp';
 
 
@@ -15,19 +15,20 @@ const Header = (props)=>{
 }
 
 //to add styles to the component, we do that using styles object
-const styles = {
+const styles = StyleSheet.create({
     textHeader:{
         fontSize:20,
-        fontFamily:"asap"
+        fontFamily:"Asap-Regular"
     },
     viewStyle:{
         backgroundColor:"#F8F8F8",
         justifyContent:'center',
         alignItems:'center',
         height:60,
-        elevation:2,   
+        elevation:2,
+        fontFamily:"asap"   
     }
-}
+})
 
 
 //make the component available to other modules
