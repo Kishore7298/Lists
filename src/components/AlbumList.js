@@ -15,7 +15,7 @@ class AlbumList extends React.Component {
             })
     }
     renderAlbums(){
-        return this.state.albumData.map( album => <Text>{album.title}</Text>)
+        return this.state.albumData.map( album => <Text key={album.title}>{album.title}</Text>)
     }
     render(){
         return (
