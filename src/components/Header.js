@@ -5,9 +5,17 @@ import { Text } from 'react-native';
 
 //create the component
 const Header = ()=>{
+    const { textHeader } = styles;
     return (
-        <Text>This is Header</Text>
+        <Text style={ textHeader }>This is Header</Text>
     )
+}
+
+//to add styles to the component, we do that using styles object
+const styles = {
+    textHeader:{
+        fontSize:20
+    }
 }
 
 
