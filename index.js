@@ -1,6 +1,13 @@
+//Import the library
+import React from 'react';
+import { Text, AppRegistry } from 'react-native';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+//Create the component
+const App = ()=>{
+    return (
+        <Text>Hello</Text>
+    );
+}
 
-AppRegistry.registerComponent(appName, () => App);
+//Mount the component to the screen
+AppRegistry.registerComponent('firstapp', ()=>App);
