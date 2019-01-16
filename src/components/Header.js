@@ -1,6 +1,7 @@
 //Import the libraries
 import React from 'react';
 import { Text, View } from 'react-native';
+import { asap } from 'rsvp';
 
 
 //create the component
@@ -16,15 +17,15 @@ const Header = (props)=>{
 //to add styles to the component, we do that using styles object
 const styles = {
     textHeader:{
-        fontSize:20
+        fontSize:20,
+        fontFamily:"Asap"
     },
     viewStyle:{
         backgroundColor:"#F8F8F8",
         justifyContent:'center',
         alignItems:'center',
         height:60,
-        elevation:2
-        
+        elevation:2,   
     }
 }
 
