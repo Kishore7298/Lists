@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import AlbumDetail from './AlbumDetail';
 
